@@ -1,0 +1,45 @@
+{
+  "name": "jsutils-hub",
+  "version": "1.0.0",
+  "description": "All Javascript Utility|Helpers functions, ease to use and supported typescript",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "jest",
+    "demo": "npx ts-node demo/demo.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nazif-Malhi/jsutils-hub.git"
+  },
+  "keywords": [
+    "JS",
+    "library",
+    "js",
+    "core",
+    "core",
+    "functions",
+    "utility",
+    "helper",
+    "functions"
+  ],
+  "author": "Nazif Malhi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nazif-Malhi/jsutils-hub/issues"
+  },
+  "homepage": "https://github.com/Nazif-Malhi/jsutils-hub#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3"
+  }
+}
